@@ -150,8 +150,6 @@ for i in range(1, 100, 1):
     if count == 3:
         break
 
-
-# ==========================================================================================
 # -------------------------------------- CONTINUE ------------------------------------------
 
 # 1. Print 1–30, skipping even numbers.
@@ -264,8 +262,6 @@ for i in range(1, 501, 1):
         continue
     print(i)
 
-
-# ==========================================================================================
 # ------------------------------- BREAK + CONTINUE -----------------------------------------
 
 # 1. Print 1–50, skip multiples of 3, stop at 40.
@@ -318,9 +314,7 @@ while number > 0:
 
 # 5. Search from 51, skip non-multiples of 9, stop at the first multiple of 9.
 for i in range(51, 101, 1):
-
     if i % 9 != 0:
         continue
-
     print(i)
     break
