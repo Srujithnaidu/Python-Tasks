@@ -1,8 +1,8 @@
-school = "Greenwood"  # Global variable
+school = "Shivaji"  # Global variable
 def classroom():
-    subject = "Science"  # Enclosing variable
+    subject = "Maths"  # Enclosing variable
     def student():
-        name = "Maya"  # Local variable
+        name = "Srujith"  # Local variable
         print(name)     # Local
         print(subject)  # Enclosing
         print(school)   # Global
